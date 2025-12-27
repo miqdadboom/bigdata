@@ -1,9 +1,3 @@
-Koko
-kareemabukharma
-Invisible
-
-This is the start of the #kareem channel. 
-miqdad_boom — Yesterday at 4:45 PM
 package com.bigdata.sales.queries
 
 import org.apache.spark.sql.{DataFrame, SparkSession}

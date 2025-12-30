@@ -1,0 +1,32 @@
+{
+  "name": "bigdata-backend",
+  "version": "1.0.0",
+  "description": "Big Data Backend for Sales Analysis with MongoDB and Mongoose",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "consumer": "node services/kafkaConsumerService.js",
+    "generate-realtime": "node scripts/generateRealtimeData.js"
+  },
+  "keywords": [
+    "bigdata",
+    "mongodb",
+    "mongoose",
+    "sales-analysis"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "type": "commonjs"
+}

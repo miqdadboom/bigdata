@@ -1,0 +1,12 @@
+# Spark / SBT
+bigdata/spark/target/
+bigdata/spark/.bsp/
+bigdata/spark/.idea/
+bigdata/spark/project/target/
+
+# General
+target/
+.idea/
+.vscode/
+node_modules/
+.env

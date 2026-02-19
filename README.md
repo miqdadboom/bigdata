@@ -2,6 +2,7 @@
 
 Real-Time Multi-Company Sales Analytics Platform built using Apache Spark Structured Streaming and Apache Kafka.
 
+
 🚀 Overview
 
 Big Data Sales Analysis is a real-time analytics system that processes streaming sales data from multiple companies.
@@ -18,7 +19,9 @@ Visualize insights through interactive dashboards
 
 The system is designed with a complete end-to-end data pipeline from ingestion to visualization.
 
-🏗 Architecture
+
+🏗 Architecture:
+
 Backend API (Node.js)
         ↓
 Apache Kafka (Message Broker)
@@ -29,7 +32,9 @@ MongoDB (Analytics Storage)
         ↓
 React.js Dashboard (Visualization)
 
-⚙️ Tech Stack
+
+⚙️ Tech Stack:
+
 🔥 Big Data & Streaming
 
 Apache Spark (Structured Streaming)
@@ -62,7 +67,8 @@ Tailwind CSS
 
 MongoDB
 
-📊 Key Features
+
+📊 Key Features:
 
 ✅ 10 Real-Time Streaming Queries
 
@@ -86,7 +92,8 @@ Employee Performance
 ✅ Market benchmarking system
 ✅ Scalable architecture
 
-🧠 Advanced Concepts
+
+🧠 Advanced Concepts:
 🔹 Structured Streaming
 
 Micro-batch processing for continuous data streams.
@@ -103,7 +110,8 @@ Time-based grouping (e.g., every 10 minutes).
 
 Implemented Count-Min Sketch for memory-efficient frequency tracking.
 
-📂 Project Structure
+
+📂 Project Structure:
 bigdata/
    spark/
       queries/
@@ -131,7 +139,8 @@ node backend/scripts/generateRealtimeData.js
 3️⃣ Open Dashboard
 http://localhost:3000
 
-📈 Example Use Cases
+
+📈 Example Use Cases:
 
 Real-time business performance monitoring
 
@@ -140,6 +149,7 @@ Market comparison across companies
 Sales trend analysis
 
 Employee productivity tracking
+
 
 🎯 Why This Project?
 
